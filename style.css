@@ -1,0 +1,95 @@
+/*global classes*/
+body{
+  background-color: white;
+  font-family: Titillium Web;
+}
+
+.row img{
+  width: 350px;
+}
+
+.max-width-small{
+  max-width: 50rem;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-large{
+  width: 80rem;
+  margin: auto;
+  color: black;
+}
+
+.margin-bottom{
+  margin-bottom: 3rem;
+}
+
+
+
+
+
+.container{
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/*
+.container h1{
+  font-size: 4rem;
+  color: white;
+}
+*/
+
+.hero-image-wrapper{
+  border:rgb(229, 229, 229) 1px solid;
+  position: absolute;
+  top: 2rem;
+  right: 0px;
+  left: auto;
+  right: auto;
+}
+
+.hero-image{
+  height: 300px;
+}
+
+.hero-box{
+  background-color: black;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box2{
+  background-color: black;
+  position: absolute;
+  top: auto;
+  left: 2rem;
+  bottom: 4rem;
+}
+
+.about-component{
+  max-width: 80rem;
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  border: 1px;
+}
+
+/*
+.about-component img{
+  width: 100px;
+}
